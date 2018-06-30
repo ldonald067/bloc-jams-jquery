@@ -7,5 +7,6 @@
          <td>song.duration</td>
         </tr>
      `);
+     $('#song-list').append(song.element);
    });
  }
