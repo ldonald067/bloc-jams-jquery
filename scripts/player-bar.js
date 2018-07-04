@@ -26,4 +26,7 @@
     player.playPause(previousSong);
   });
 
+  setInterval( () => {
+
+  }, 1000)
 }
