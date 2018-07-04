@@ -27,6 +27,6 @@
   });
 
   setInterval( () => {
-
+    if (player.playState !== 'playing') { return; }
   }, 1000)
 }
