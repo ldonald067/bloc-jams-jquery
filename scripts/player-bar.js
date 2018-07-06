@@ -42,5 +42,12 @@
    const percent = (currentTime / duration) * 100;
    $('#time-control .current-time').text( currentTime );
    $('#time-control input').val(percent);
+
+   // no countdown, just gives total time of each song
+   $('#time-control .total-time').text(player.getDuration());
+
+   // gives countdown of song
+  //  const totalTime = (currentTime - duration);
+  //  $('#time-control .total-time').text( totalTime );
  }, 1000);
 }
