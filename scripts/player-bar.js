@@ -1,3 +1,5 @@
+$( document ).ready(function() {
+
 {
   $('button#play-pause').on('click', function() {
     player.playPause();
@@ -51,3 +53,4 @@
   //  $('#time-control .total-time').text( totalTime );
  }, 1000);
 }
+});
